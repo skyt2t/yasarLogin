@@ -1,0 +1,51 @@
+.signup-container {
+  display: flex;
+  height: 100vh;background-size: 100vh;
+  overflow: hidden;
+
+}
+
+.signup-image {
+  flex: 1;
+  background: url('https://imgcdn.stablediffusionweb.com/2024/3/19/d7725eaa-4788-41c8-8c7c-a087a0e21b5a.jpg')
+    no-repeat center center;
+  width: 50vw;
+}
+
+.signup-form-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.signup-form {
+  max-width: 400px;
+  width: 100%;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
